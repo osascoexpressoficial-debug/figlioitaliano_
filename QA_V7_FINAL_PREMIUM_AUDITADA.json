@@ -1,0 +1,108 @@
+{
+  "versao": "V7_FINAL_PREMIUM_AUDITADA",
+  "status": "pronta_para_envio_e_publicacao",
+  "imagens_4k_master": {
+    "observacao_honesta": "As imagens foram ampliadas para master com maior lado em 3840px nos assets principais. Isso melhora presença em telas grandes, mas não transforma foto de origem pequena em foto nativa 4K real.",
+    "arquivos": {
+      "contexto-familia.webp": {
+        "w": 3142,
+        "h": 3840,
+        "kb": 595.0,
+        "max_side": 3840
+      },
+      "dor-pedido.webp": {
+        "w": 3840,
+        "h": 3456,
+        "kb": 486.7,
+        "max_side": 3840
+      },
+      "figlio-logo-black.png": {
+        "w": 900,
+        "h": 705,
+        "kb": 83.8,
+        "max_side": 900
+      },
+      "figlio-logo-white.png": {
+        "w": 950,
+        "h": 708,
+        "kb": 92.1,
+        "max_side": 950
+      },
+      "forno-bg.webp": {
+        "w": 3840,
+        "h": 2468,
+        "kb": 494.1,
+        "max_side": 3840
+      },
+      "hero-bg.webp": {
+        "w": 3840,
+        "h": 2560,
+        "kb": 599.8,
+        "max_side": 3840
+      },
+      "hero-pizza.webp": {
+        "w": 3840,
+        "h": 3137,
+        "kb": 742.4,
+        "max_side": 3840
+      },
+      "og-figlio-osasco-express.jpg": {
+        "w": 2400,
+        "h": 1260,
+        "kb": 570.5,
+        "max_side": 2400
+      },
+      "osasco-express-logo-white.png": {
+        "w": 900,
+        "h": 900,
+        "kb": 75.2,
+        "max_side": 900
+      },
+      "pizza-doce.webp": {
+        "w": 2880,
+        "h": 3840,
+        "kb": 553.6,
+        "max_side": 3840
+      },
+      "pizza-levieza.webp": {
+        "w": 2880,
+        "h": 3840,
+        "kb": 676.4,
+        "max_side": 3840
+      }
+    }
+  },
+  "auditoria": {
+    "referencias_quebradas": [],
+    "ancoras_quebradas": [],
+    "termos_sensiveis": {
+      "chip": 0,
+      "pill": 0,
+      "escala": 0,
+      "funcionário": 0,
+      "vínculo": 0,
+      "jornada": 0,
+      "subordinação": 0,
+      "terceir": 0
+    },
+    "termos_casuais_corrigidos": {
+      "pra": 1,
+      "sem esconder": 0
+    },
+    "css": {
+      "overflow_x_hidden": true,
+      "scroll_padding_top": true,
+      "glass_backdrop_filter": true,
+      "anti_quebra": true,
+      "mobile_actions": true,
+      "content_visibility": true
+    },
+    "conteudo": {
+      "planos": true,
+      "regras_ocorrencia": true,
+      "responsabilidades": true,
+      "fechamento": true,
+      "cardapio_web_separado": true
+    }
+  }
+}

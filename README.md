@@ -38,3 +38,14 @@ Este pacote inclui um workflow novo e correto com:
 ## V6 Completa
 
 Foram incorporados os elementos operacionais que estavam fortes na proposta Bevenutti: planos de gestão logística, protocolos de ocorrência, responsabilidades, fechamento/repasses e regras de rotina. Tudo foi adaptado para a Figlio Italiano sem usar linguagem trabalhista sensível e sem usar chips.
+
+
+## V7 Final Premium Auditada
+
+Correções aplicadas:
+- Assets principais ampliados para master com maior lado em 3840px.
+- Refinamento de glass, sombra, hierarquia e responsividade.
+- Proteção contra quebra feia de texto e scroll horizontal.
+- Revisão de linguagem casual.
+- Auditoria de referências, âncoras, CSS, termos sensíveis e conteúdo.
+- Blocos completos vindos da lógica Bevenutti: planos, regras, responsabilidades, fechamento e repasses.
