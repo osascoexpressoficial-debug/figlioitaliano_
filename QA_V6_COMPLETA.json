@@ -1,0 +1,26 @@
+{
+  "versao": "V6_COMPLETA_BEVENTUTTI_BASE",
+  "base": "arquivo atual do usuário + comparação com estrutura Bevenutti",
+  "itens_agregados": [
+    "Planos de gestão logística",
+    "Reforço de pico",
+    "Protocolos de ocorrência",
+    "Responsabilidades bem divididas",
+    "Fechamento, relatório e repasses",
+    "Integração iFood, 99Food e entrega da casa",
+    "Condição climática detalhada",
+    "Valores por uso mais completos"
+  ],
+  "refs_quebradas": [],
+  "ancoras_quebradas": [],
+  "termos_sensiveis": {
+    "chip": 0,
+    "pill": 0,
+    "escala": 0,
+    "funcionário": 0,
+    "vínculo": 0,
+    "jornada": 0,
+    "subordinação": 0,
+    "terceir": 0
+  }
+}

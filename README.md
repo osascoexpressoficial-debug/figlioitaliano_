@@ -33,3 +33,8 @@ Este pacote inclui um workflow novo e correto com:
 - `id-token: write`
 - ambiente `github-pages`
 - artifact do site estático apontando para a raiz.
+
+
+## V6 Completa
+
+Foram incorporados os elementos operacionais que estavam fortes na proposta Bevenutti: planos de gestão logística, protocolos de ocorrência, responsabilidades, fechamento/repasses e regras de rotina. Tudo foi adaptado para a Figlio Italiano sem usar linguagem trabalhista sensível e sem usar chips.

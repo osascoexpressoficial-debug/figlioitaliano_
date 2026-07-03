@@ -35,3 +35,152 @@ html, body { min-width: 320px; }
 @media (max-width: 520px){
   .hero h1{font-size:clamp(39px,12vw,50px)}.hero-media{min-height:360px}.hero-media img{min-height:360px}.media-caption{left:22px;right:22px;bottom:22px}.media-caption strong{font-size:24px}.hero-actions{grid-template-columns:1fr}.hero-actions .btn{width:100%;}.context-card,.context-card img{min-height:500px;height:500px}.clean-list span{font-size:13px}.metric strong{font-size:28px}
 }
+
+
+/* V6 — blocos completos herdados da lógica Bevenutti, adaptados para Figlio */
+.plans-block{
+  margin:30px 0 28px;
+  padding:28px;
+  border-radius:26px;
+  background:linear-gradient(180deg,rgba(5,34,22,.96),rgba(3,17,11,.98));
+  border:1px solid rgba(201,162,78,.46);
+  box-shadow:0 22px 70px rgba(5,34,22,.18);
+  color:#fff;
+}
+.plans-head h3{
+  margin:0 0 10px;
+  font-family:var(--serif);
+  font-size:clamp(28px,3.2vw,42px);
+  line-height:1.02;
+  letter-spacing:-.035em;
+}
+.plans-head p{
+  margin:0;
+  color:rgba(246,239,227,.78);
+  line-height:1.65;
+}
+.plan-grid{
+  margin-top:22px;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+}
+.plan-card{
+  padding:20px;
+  border-radius:20px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(201,162,78,.32);
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.plan-card.featured{
+  background:linear-gradient(180deg,rgba(201,162,78,.18),rgba(255,255,255,.08));
+  border-color:rgba(201,162,78,.72);
+}
+.plan-card span{
+  font-size:13px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:850;
+}
+.plan-card strong{
+  font-size:30px;
+  letter-spacing:-.04em;
+  color:#fff;
+  line-height:1;
+}
+.plan-card small{
+  color:rgba(246,239,227,.68);
+  font-weight:700;
+}
+.plan-card p{
+  margin:2px 0 4px;
+  color:rgba(246,239,227,.78);
+  font-size:14px;
+  line-height:1.45;
+}
+.plan-card ul{
+  margin:0;
+  padding-left:17px;
+  color:rgba(246,239,227,.84);
+  display:grid;
+  gap:6px;
+  font-size:13px;
+  line-height:1.35;
+}
+.plan-note{
+  margin:18px 0 0;
+  padding:14px 16px;
+  border-radius:16px;
+  background:rgba(206,17,38,.14);
+  border:1px solid rgba(206,17,38,.24);
+  color:#fff;
+  line-height:1.5;
+}
+.values-direct.value-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+.protocol-grid,.responsibility-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.responsibility-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+}
+.protocol-card,.responsibility-card{
+  padding:18px;
+  border-radius:18px;
+  background:var(--cream-2);
+  border:1px solid rgba(201,162,78,.30);
+}
+.protocol-card strong,.responsibility-card h4{
+  margin:0 0 8px;
+  color:var(--green-900);
+  font-size:16px;
+  display:block;
+}
+.protocol-card p,.responsibility-card p{
+  padding:0;
+  margin:0;
+}
+.responsibility-card ul{
+  margin:0;
+  padding-left:17px;
+  color:var(--muted);
+  display:grid;
+  gap:7px;
+  font-size:14px;
+  line-height:1.42;
+}
+.report-list{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+}
+.report-list span{
+  padding:12px 14px;
+  border-radius:14px;
+  background:var(--cream-2);
+  border:1px solid rgba(201,162,78,.28);
+  color:var(--green-900);
+  font-weight:800;
+  font-size:13px;
+}
+.plans-summary{
+  margin-bottom:16px;
+}
+@media (max-width: 980px){
+  .plan-grid,.values-direct.value-grid,.responsibility-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+@media (max-width: 680px){
+  .plans-block{padding:22px 18px;border-radius:22px}
+  .plan-grid,.values-direct.value-grid,.protocol-grid,.responsibility-grid,.report-list{
+    grid-template-columns:1fr;
+  }
+  .plan-card strong{font-size:28px}
+}
