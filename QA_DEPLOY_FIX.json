@@ -1,0 +1,67 @@
+{
+  "status": "fix_definitivo_github_pages",
+  "index_html_na_raiz": true,
+  "assets_na_raiz": true,
+  "nojekyll_na_raiz": true,
+  "workflow_novo": true,
+  "refs_quebradas": [],
+  "ancoras_quebradas": [],
+  "imagens": {
+    "contexto-familia.webp": {
+      "w": 1800,
+      "h": 2200,
+      "kb": 357.4
+    },
+    "dor-pedido.webp": {
+      "w": 2000,
+      "h": 1800,
+      "kb": 266.4
+    },
+    "figlio-logo-black.png": {
+      "w": 900,
+      "h": 705,
+      "kb": 83.8
+    },
+    "figlio-logo-white.png": {
+      "w": 950,
+      "h": 708,
+      "kb": 92.1
+    },
+    "forno-bg.webp": {
+      "w": 2200,
+      "h": 1414,
+      "kb": 248.5
+    },
+    "hero-bg.webp": {
+      "w": 2400,
+      "h": 1600,
+      "kb": 412.9
+    },
+    "hero-pizza.webp": {
+      "w": 2200,
+      "h": 1797,
+      "kb": 405.4
+    },
+    "og-figlio-osasco-express.jpg": {
+      "w": 1600,
+      "h": 840,
+      "kb": 328.9
+    },
+    "osasco-express-logo-white.png": {
+      "w": 900,
+      "h": 900,
+      "kb": 75.2
+    },
+    "pizza-doce.webp": {
+      "w": 1800,
+      "h": 2400,
+      "kb": 382.7
+    },
+    "pizza-levieza.webp": {
+      "w": 1800,
+      "h": 2400,
+      "kb": 453.5
+    }
+  },
+  "config_recomendada": "Settings > Pages > Build and deployment > Source: GitHub Actions"
+}
